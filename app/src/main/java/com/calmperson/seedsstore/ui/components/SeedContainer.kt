@@ -8,13 +8,11 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.State
-import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
@@ -30,7 +28,6 @@ import com.calmperson.seedsstore.ui.theme.Green
 import com.calmperson.seedsstore.ui.theme.LightViolet
 import com.calmperson.seedsstore.ui.theme.Purple
 import com.calmperson.seedsstore.ui.theme.RobotoBold
-import kotlinx.coroutines.flow.StateFlow
 
 @Composable
 fun SeedContainer(
@@ -50,15 +47,15 @@ fun SeedContainer(
         ) {
             AsyncImage(
                 modifier = Modifier
-                    .size(177.dp, 128.dp)
                     .clip(RoundedCornerShape(8.dp))
-                    .border(1.dp, LightViolet, RoundedCornerShape(8.dp)),
+                    .border(1.dp, LightViolet, RoundedCornerShape(8.dp))
+                    .weight(0.6f),
                 model = "file:///android_asset/seed/${state.value.seed.image}",
                 contentDescription = null,
                 contentScale = ContentScale.Crop
             )
             Spacer(modifier = Modifier.width(21.dp))
-            Column {
+            Column(modifier = Modifier.weight(1f)) {
                 Text(
                     text = state.value.seed.name,
                     fontSize = 18.sp,

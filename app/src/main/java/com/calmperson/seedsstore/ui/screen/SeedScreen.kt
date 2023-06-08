@@ -1,12 +1,10 @@
 package com.calmperson.seedsstore.ui.screen
 
 import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
@@ -20,7 +18,6 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -47,8 +44,7 @@ import com.calmperson.seedsstore.ui.theme.RobotoBold
 import com.calmperson.seedsstore.ui.theme.SeedsStoreTheme
 import com.calmperson.seedsstore.ui.theme.SourceSansProRegular
 import com.calmperson.seedsstore.ui.theme.SourceSansProSemiBold
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
+
 @Composable
 fun SeedScreen(
     modifier: Modifier = Modifier,
@@ -59,13 +55,12 @@ fun SeedScreen(
 ) {
 
     val descriptionScrollState = rememberScrollState()
-    Box(
+    Column(
         modifier = modifier
     ) {
         AsyncImage(
             modifier = Modifier
-                .align(Alignment.TopCenter)
-                .height(360.dp)
+                .weight(0.4f)
                 .fillMaxWidth(),
             model = "file:///android_asset/seed/${state.seed.image}",
             contentDescription = null,
@@ -73,16 +68,18 @@ fun SeedScreen(
         )
         Surface(
             modifier = Modifier
-                .align(Alignment.TopCenter)
-                .padding(top = 281.dp)
-                .zIndex(1f),
+                .weight(0.6f)
+                .zIndex(1f)
+                .graphicsLayer {
+                    translationY = 0.5f * 0.3f
+                },
             shape = RoundedCornerShape(topStart = 40.dp, topEnd = 40.dp)
         ) {
             Column(
                 modifier = Modifier
             ) {
                 Column(
-                    modifier = Modifier.height(210.dp)
+                    modifier = Modifier.height(170.dp)
                 ) {
                     Spacer(modifier = Modifier.height(37.dp))
                     Text(

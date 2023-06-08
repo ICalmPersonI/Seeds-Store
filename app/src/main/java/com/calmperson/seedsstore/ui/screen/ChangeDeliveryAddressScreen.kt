@@ -5,6 +5,8 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -33,8 +35,10 @@ fun ChangeDeliveryAddressScreen(
     var postalCode by remember { mutableStateOf("") }
     var country by remember { mutableStateOf("") }
 
+    val scrollState = rememberScrollState()
+
     Column(
-        modifier = modifier.padding(start = 20.dp, end = 20.dp)
+        modifier = modifier.padding(start = 20.dp, end = 20.dp).verticalScroll(scrollState)
     ) {
         AppTextField(
             label = stringResource(R.string.full_name),
