@@ -1,0 +1,892 @@
+{
+  "seeds": [
+    {
+      "name": "Bitter melon",
+      "description": "If the Balsam Pear did not exist a pharmaceutical company would invent it. In fact, there have been some ten studies published this past year about it, the latest as of this writing in February",
+      "image": "vegetable/bitter-melon-seeds-momordica-charantia.jpg",
+      "price": 1.75,
+      "amount": 5,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Black Corn Seeds Black Aztek",
+      "description": "One of the few black corn varieties, the Black Aztec traces back to the 1800s. The plant (1,8 meters tall) produces high yields of beautiful 20 to 25  centimeters long black corn. Excellent variety for roasting and grinding into cornmeal.",
+      "image": "vegetable/black-corn-seeds-black-aztek.jpg",
+      "price": 2.45,
+      "amount": 200,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Japanese Black Truffle Tomato",
+      "description": "One of the finest Heirloom Black tomato varieties we have grown, with a tear drop shape, stunning deep dark-red colour, meaty texture and fantastic complex sweet and zesty flavour. Fruits average 2 ½” diameter and the plants are extremely productive with 5-6 fruits per truss.",
+      "image": "vegetable/black-truffle-tomato-seeds.jpg",
+      "price": 1.85,
+      "amount": 300,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Bloody Butcher Sweetcorn",
+      "description": "Bloody Butcher is old type corn has been grown in the United States since at least 1845. Plants can grow up to 2,5 meters or more in height producing two to six corncob per plant.",
+      "image": "vegetable/bloody-butcher-sweetcorn-seeds.jpg",
+      "price": 1.55,
+      "amount": 225,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Garden Peach Tomato",
+      "description": "Peach tomatoes, like other peach-type tomato varieties, have a soft fuzz that covers their skin. The creamy yellow fruit (approx weight 80-90 grams) is about 5 centimeters (two inches) in size.",
+      "image": "vegetable/garden-peach-tomato-seeds.jpg",
+      "price": 1.65,
+      "amount": 655,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Lemon Cucumber",
+      "description": "An unusual Heirloom variety producing a profusion of apple-shaped fruits, with lemon-coloured skin and lime green flesh, which is very mild, sweet, and never bitter. Best harvested at lemon.",
+      "image": "vegetable/lemon-cucumber-seeds.jpg",
+      "price": 2.25,
+      "amount": 1000,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Poona Kheera Cucumber",
+      "description": "Organic Poona Kheera Cucumber - A favorite in our trials! A specialty variety from India with great flavor, quality and field resistance to disease compared to similar varieties.",
+      "image": "vegetable/poona-kheera-cucumber-seeds.jpg",
+      "price": 2.35,
+      "amount": 300,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Pop Corn Strawberry",
+      "description": "Strawberry popcorn seeds are fun and easy to grow in your garden. Strawberry popcorn produces from 2 to 4 miniature 7 cm (2-3\") cobs that resemble strawberries in shape and color. Strawberry popcorn plants grow only 120-150 cm (4 feet) tall and produce mahogany-colored cobs with blonde husks.",
+      "image": "vegetable/pop-corn-strawberry-seeds.jpg",
+      "price": 1.75,
+      "amount": 300,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Climbing French Bean Cosse Violet",
+      "description": "1868 (Vilmorin). \"Plant of free vigorous growth, pods 6 to 8 inches long, twisted, of a deeppurplish blue colour. A very heavy cropper; very striking on account of the colour of its pods. A good edible-podded variety and very tender. The pods lose the purple colour on being cooked and become as green as others.",
+      "image": "vegetable/runner-bean-cosse-violet-seeds.jpg",
+      "price": 2.50,
+      "amount": 255,
+      "category": [
+        0, 3
+      ]
+    },
+    {
+      "name": "Sturt's Desert Pea",
+      "description": "Sturt's Desert Pea is one of the best known of the Australian wild flowers. The masses of deep red to scarlet blooms with their black or maroon centres make an attractive.",
+      "image": "vegetable/sturt-s-desert-pea-seeds-swainsona-formosa.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        0
+      ]
+    },
+    {
+      "name": "Azalea - Red Blossom",
+      "description": "This flowering bonsai produces red blooms during the spring and possibly during the fall with the proper care. It's bold Red blooms can add a refreshing touch to a room looking for natural color.",
+      "image": "trees_bonsai/azalea.jpg",
+      "price": 5.35,
+      "amount": 300,
+      "category": [
+        4
+      ]
+    },
+    {
+      "name": "Boxwood",
+      "description": "The Boxwood's tiny leathery leaves, dense growth habits, and rough bark make it a good bonsai tree subject. Since it needs minimal sunlight, the boxwood bonsai tree is perfect for an indoor environment such as your home or office.",
+      "image": "trees_bonsai/boxwood.jpg",
+      "price": 6.10,
+      "amount": 300,
+      "category": [
+        4
+      ]
+    },
+    {
+      "name": "Chinese Elm",
+      "description": "Characterized by its leaf shape and stem development, the Chinese Elm is a great tree for beginners and intermediate enthusiasts who want to practice their clip-and-grow pruning. Easy to train and easy to shape with vigorous branch and root growth. Pruning the Chinese Elm Bonsai tree will continually produce fresh leaves to any shape you choose.",
+      "image": "trees_bonsai/chinese_elm.jpg",
+      "price": 12.35,
+      "amount": 300,
+      "category": [
+        4
+      ]
+    },
+    {
+      "name": "Golden Gate Ficus",
+      "description": "This beautiful Golden Gate ficus bonsai tree is actually not as difficult to take care of as one may think. Like many ficus bonsai trees, the Golden Gate Ficus Bonsai Tree or Taiwan Ficus Bonsai Tree can be kept both indoors and outdoors, and is also one of the most hardy species.",
+      "image": "trees_bonsai/golden_gate_ficus.jpg",
+      "price": 7.85,
+      "amount": 300,
+      "category": [
+        4
+      ]
+    },
+    {
+      "name": "Taiwan Ficus",
+      "description": "Bonsai, which translates to \"tree in a pot,\" originated from China and Japan. This 10\" Taiwan Ficus bonsai tree features a trained \"S\" shape and soft glossy leaves. Like many ficus bonsai trees, the Taiwan Ficus Bonsai Tree can be kept both indoors and outdoors, and is also one of the most hardy species. A humidity tray is recommended with the Taiwan Ficus since the tree enjoys a more humid wet environment.",
+      "image": "trees_bonsai/taiwan_ficus.jpg",
+      "price": 14.55,
+      "amount": 300,
+      "category": [
+        4
+      ]
+    },
+    {
+      "name": "Adonis - tobacco of the Gods",
+      "description": "The origin of White Burley tobacco was credited to a Mr. Webb in 1864, who grew it near Higginsport, Ohio, from seed from Bracken County, Kentucky. He noticed it yielded a different type of light leaf shaded.",
+      "image": "tobacco/adonis-tobacco-of-the-gods-seeds.jpg",
+      "price": 2.45,
+      "amount": 300,
+      "category": [
+        6
+      ]
+    },
+    {
+      "name": "Burley Tobacco Seeds cocoa like aroma",
+      "description": "Burley tobacco is a light air-cured tobacco used primarily for cigarette production. In the United States it is produced in an eight-state belt with approximately 70% produced in Kentucky. Tennessee produces.",
+      "image": "tobacco/burley-tobacco-seeds-cocoa-like-aroma.jpg",
+      "price": 10.00,
+      "amount": 300,
+      "category": [
+        6
+      ]
+    },
+    {
+      "name": "Winged , Jasmine , Flowering Tobacco Seeds (Nicotiana Affinis Alba)",
+      "description": "Ideal for borders, pots and baskets, Nicotiana delivers stunning displays  of long trumpet diamond white  flowers on tall stems from robust attractively foliaged plants that reach 3ft.  The flowers are highly.",
+      "image": "tobacco/jasmine-tobacco-flowering-tobacco-seeds.jpg",
+      "price": 2.00,
+      "amount": 300,
+      "category": [
+        6
+      ]
+    },
+    {
+      "name": "Latakia Orient Tobacco",
+      "description": "Sun- or air-cured aromatic Oriental tobacco from Syria and Cyprus, for the water pipe and an additive for aromatic cigarettes and English pipe tobacco, grows well in dry regions and on poor soila.",
+      "image": "tobacco/latakia-orient-tobacco-seeds.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        6
+      ]
+    },
+    {
+      "name": "Samsoun Orient Tobacco",
+      "description": "The Samsoun Turkish tobaccos are among the best Oriental tobaccos out there. This variety of tobacco with - higher nicotine content now used to a greater shisha tobacco.",
+      "image": "tobacco/samsoun-orient-tobacco-seedsjpg",
+      "price": 1.75,
+      "amount": 300,
+      "category": [
+        6
+      ]
+    },
+    {
+      "name": "Tobacco seeds Hercegovacki Ravnjak",
+      "description": "Skija is a colloquial name for tobacco Ravnjak planted in the wider area of Herzegovina and Dalmatia. Eastern Herzegovina has been the home of this type of tobacco since ancient times, and later.",
+      "image": "tobacco/tobacco-seeds-hercegovacki-ravnjak-32-leaves.jpg",
+      "price": 2.45,
+      "amount": 300,
+      "category": [
+        6
+      ]
+    },
+    {
+      "name": "Virginia Gold Tobacco",
+      "description": "Virginia tobacco is an annual plant. Virginia - the name comes from the U.S. state's name. This is the most common tobacco. Its peculiarity, that it has a high sugar content and is used in many formulas.",
+      "image": "tobacco/virginia-gold-tobacco-seeds.jpg",
+      "price": 1.75,
+      "amount": 300,
+      "category": [
+        6
+      ]
+    },
+    {
+      "name": "Bottle Palm (Hyophorbe lagenicaulis)",
+      "description": "Hyophorbe lagenicaulis, the bottle palm or palmiste gargoulette, is a species of flowering plant in the Arecaceae family. It is native to Round Island, Mauritius.",
+      "image": "palm/bottle-palm-seeds-hyophorbe-lagenicaulis.jpg",
+      "price": 4.95,
+      "amount": 300,
+      "category": [
+        5
+      ]
+    },
+    {
+      "name": "Golden cane palm",
+      "description": "Dypsis lutescens, also known as golden cane palm, areca palm, yellow palm, or butterfly palm, is a species of flowering plant in the family Arecaceae, native to Madagascar and naturalized in the Andaman Islands, Réunion, El Salvador, Cuba.",
+      "image": "palm/golden-cane-palm-seeds-dypsis-lutescens.jpg",
+      "price": 3.95,
+      "amount": 300,
+      "category": [
+        5
+      ]
+    },
+    {
+      "name": "European fan palm, Mediterranean dwarf palm",
+      "description": "Chamaerops is a genus of flowering plants in the palm family Arecaceae. The only currently fully accepted species is Chamaerops humilis, variously called European fan palm.",
+      "image": "palm/mediterranean-dwarf-palm-seeds-chamaerops-humilis.jpg",
+      "price": 3.00,
+      "amount": 300,
+      "category": [
+        5
+      ]
+    },
+    {
+      "name": "Miniature sugar palm",
+      "description": "A small, shrubby palm up to 2 m (7 ft.) Tall, with densely clustered, thin reed-like stems and small leaves that are dark green above and silvery-white below.",
+      "image": "palm/miniature-sugar-palm-seeds-arenga-caudata.jpg",
+      "price": 3.50,
+      "amount": 300,
+      "category": [
+        5
+      ]
+    },
+    {
+      "name": "Pachypodium Lamerei",
+      "description": "This truly original succulent comes from the island of Madagascar off the East coast of Mozambique. Madagascar has evolved on its own for millions of years.",
+      "image": "palm/pachypodium-lamerei-seeds.jpg",
+      "price": 2.45,
+      "amount": 300,
+      "category": [
+        5
+      ]
+    },
+    {
+      "name": "Ponytail palm (Beaucarnea recurvata)",
+      "description": "Beaucarnea recurvata, the elephant's foot or ponytail palm, is a species of plant in the family Asparagaceae. The species was native to numerous states of eastern Mexico but is now confined to the state of Veracruz. Despite its common name, it is not closely related to the true palms (Arecaceae).",
+      "image": "palm/ponytail-palm-seeds-beaucarnea-recurvata.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        5
+      ]
+    },
+    {
+      "name": "Sago Palm, King Sago, Sago Cycad, Japanese Sago Palm",
+      "description": "Cycas revoluta (Sotetsu [Japanese ソテツ], sago palm, king sago, sago cycad, Japanese sago palm), is a species of gymnosperm in the family Cycadaceae, native to southern Japan including the Ryukyu Islands.",
+      "image": "palm/seeds-sago-palm-king-sago-sago-cycad-japanese-sago-palm.jpg",
+      "price": 3.75,
+      "amount": 300,
+      "category": [
+        5
+      ]
+    },
+    {
+      "name": "Washingtonia California Fan Palm",
+      "description": "Washingtonia Filifera is a palm native to the southern and southwestern  USA states and northwest Mexico. This palm grows up to 23 m  (exceptionally 30 m) in good growing conditions",
+      "image": "palm/washingtonia-seeds.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        5
+      ]
+    },
+    {
+      "name": "Pimpinella anisum",
+      "description": "Anise has finely cut, feathery leaves topped with long stems of white umbel flowers. The licorice-flavored seeds are added to bread, cakes, and desserts.",
+      "image": "medicinal_herb/anise-seeds-aniseed-herb.jpg",
+      "price": 2.25,
+      "amount": 300,
+      "category": [
+        2
+      ]
+    },
+    {
+      "name": "Bala, Country Mallow",
+      "description": "Wikipedia: Sida cordifolia (bala, country mallow, heart-leaf sida or flannel weed) is a perennial subshrub of the mallow family Malvaceae native to India. It has naturalized throughout the world, and is considered an invasive weed in Africa, Australia, the southern United States, Hawaiian Islands.",
+      "image": "medicinal_herb/bala-country-mallow-seeds",
+      "price": 2.35,
+      "amount": 300,
+      "category": [
+        2, 8
+      ]
+    },
+    {
+      "name": "Berlin Parsley Root",
+      "description": "Dual-use variety. Delicious parsnip like roots. Full-flavored parsley leaves. Easy from seed. This species of parsley is widely grown in Europe and the Mediterranean but seldom seen in British gardens.",
+      "image": "medicinal_herb/berlin-parsley-seeds-dual-use.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        2
+      ]
+    },
+    {
+      "name": "Caper Spurge or Paper Spurge",
+      "description": "Euphorbia Lathyris is also commonly known as Mole Plant, Paper Spurge, Gopher Plant, Caper Spurge, or Gopher Spurge. It is an ornamental plant that grows up to 1 meter (5 ft) in height.",
+      "image": "medicinal_herb/caper-spurge-or-paper-spurge-seeds.jpg",
+      "price": 2.45,
+      "amount": 300,
+      "category": [
+        2
+      ]
+    },
+    {
+      "name": "Matricaria Chamomilla",
+      "description": "German chamomile is a daily-like flower in the sunflower family, and it has medicinal uses that were employed by the Egyptians, Greeks and Romans. This short, easy-to-grow annual has sedative, antispasmodic.",
+      "image": "medicinal_herb/chamomile-seeds.jpg",
+      "price": 2.45,
+      "amount": 300,
+      "category": [
+        2, 8
+      ]
+    },
+    {
+      "name": "FLORENCE Fennel",
+      "description": "Mid to late season fennel, well-known as a premium selection for its very large oval bulbs, average weight about 600 g, with thick, flavorsome sticks.",
+      "image": "medicinal_herb/fennel-seed-sweet-fennel-fenkel.jpg",
+      "price": 1.85,
+      "amount": 300,
+      "category": [
+        2
+      ]
+    },
+    {
+      "name": "Lemon Balm",
+      "description": "Lemon balm (Melissa officinalis), balm, common balm, or balm mint, is a perennial herbaceous plant in the mint family Lamiaceae and native to south-central Europe, the Mediterranean Basin, Iran, and Central Asia.",
+      "image": "medicinal_herb/lemon-balm-seeds-herb.jpg",
+      "price": 2.55,
+      "amount": 300,
+      "category": [
+        2
+      ]
+    },
+    {
+      "name": "Peppermint",
+      "description": "Peppermint (Mentha × piperita, also known as M. balsamea Willd.) is a hybrid mint, a cross between watermint and spearmint. The plant, indigenous to Europe and the Middle East.",
+      "image": "medicinal_herb/peppermint-seeds-mentha-piperita.jpg",
+      "price": 2.50,
+      "amount": 300,
+      "category": [
+        2
+      ]
+    },
+    {
+      "name": "Pokeweed, Poke Sallet",
+      "description": "Here is your opportunity to purchase fresh seed of this variegated form of this unusual perennial plant. A bushy plant with large green leaves, marbled with white and creamy-yellow.",
+      "image": "medicinal_herb/phytolacca-americana-silberstein-seeds.jpg",
+      "price": 2.25,
+      "amount": 300,
+      "category": [
+        2
+      ]
+    },
+    {
+      "name": "Alpine White Strawberry - White Soul",
+      "description": "Alpine Strawberry White soul is a little, white strawberry variety with red seeds specks. The lovely, sweet, pineapple like, white strawberry can be harvested all summer til the fall",
+      "image": "fruit/alpine-strawberry-white-soul-seeds.jpg",
+      "price": 5.50,
+      "amount": 300,
+      "category": [
+        1
+      ]
+    },
+    {
+      "name": "Ananas (Pineapple) Melon",
+      "description": "The Ananas Melon, known in France as \"Ananas D'Amerique a Chair Verte\" is one of the most popular heirloom melons grown in the United State.",
+      "image": "fruit/ananas-pineapple-melon-seeds.jpg",
+      "price": 1.85,
+      "amount": 300,
+      "category": [
+        1
+      ]
+    },
+    {
+      "name": "Black Strawberry - Exotic Rare",
+      "description": "A lovely Black Strawberry that is fully hardy. Perfect for small spaces or containers, it will produce an abundance of small sweet fruit, with a hint of pineapple.",
+      "image": "fruit/black-strawberry-seeds.jpg",
+      "price": 2.25,
+      "amount": 300,
+      "category": [
+        1
+      ]
+    },
+    {
+      "name": "Black Sweet Watermelon",
+      "description": "The finest seeds through the finest seed selecting process with our leading technology to ensure the quality of the seeds with firm vigor, great disease tolerance as well as very high germination.",
+      "image": "fruit/black-sweet-watermelon-seeds.jpg",
+      "price": 2.50,
+      "amount": 300,
+      "category": [
+        1
+      ]
+    },
+    {
+      "name": "Giant Granadilla, Passion Fruit",
+      "description": "Passiflora quadrangularis, the giant granadilla, barbadine (Trinidad), grenadine (Haiti), giant tumbo or badea (Spanish pronunciation: [baˈðe.a]), is a species of plant in the family Passifloraceae.",
+      "image": "fruit/giant-granadilla-seeds-passion-fruit-passiflora-quadrangularis.jpg",
+      "price": 2.50,
+      "amount": 300,
+      "category": [
+        1, 3
+      ]
+    },
+    {
+      "name": "Kiwano Seeds African Horned Melon",
+      "description": "Cucumis metuliferus, horned melon, spiked melon, or kiwano, also African horned cucumber or melon, jelly melon, hedged gourd.",
+      "image": "fruit/kiwano-seeds-african-horned-melon-cucumis-metuliferus.jpg",
+      "price": 4.00,
+      "amount": 300,
+      "category": [
+        1, 3
+      ]
+    },
+    {
+      "name": "Noni",
+      "description": "Noni is a tropical fruit that was originally native to Polynesian islands but is now grown in many tropical regions around the world.",
+      "image": "fruit/noni-seeds-morinda-citrifolia-rubiaceae.jpg",
+      "price": 2.20,
+      "amount": 300,
+      "category": [
+        1
+      ]
+    },
+    {
+      "name": "Phyllanthus Emblica Indian Gooseberry Amla",
+      "description": "Emblica officinalis, Phyllanthus emblica Family: Euphorbiaceae Indian Gooseberry, Emblic Myrobalan, Amla, Amalaki, Amloki Origin: Northern and South Western India small tree 10-20 ftfull sunregular waterethnomedicalediblesubtropical, cold hardy at least to 30s F for a short timeincuded in CD catalog Small.",
+      "image": "fruit/phyllanthus-emblica-indian-gooseberry-amla-seeds.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        1
+      ]
+    },
+    {
+      "name": "Yellow Pitaya",
+      "description": "DRAGON FRUIT. Truly one of God's wonders! Pitaya Fruit, Pitahaya Fruit or commonly known as the Dragon fruit is among the most nutritious and wonderful exotic fruits.",
+      "image": "fruit/pitaya-pitahaya-dragon-fruit-yellow-seeds.jpg",
+      "price": 3.50,
+      "amount": 300,
+      "category": [
+        1, 7
+      ]
+    },
+    {
+      "name": "Threeleaf Akebia",
+      "description": "Akebia fruit has a purple color not often seen in nature. It is the size of a russet potato and is soft to the touch. A slice can be removed from the thick rind of a domesticated Akebi fruit.",
+      "image": "fruit/threeleaf-akebia-seeds.jpg",
+      "price": 2.45,
+      "amount": 300,
+      "category": [
+        1
+      ]
+    },
+    {
+      "name": "Flossflower",
+      "description": "Ageratum houstonianum, commonly known as flossflower, bluemink, blueweed, pussy foot or Mexican paintbrush, is a cool-season annual plant often grown as bedding in gardens.",
+      "image": "flower/blue-mink-seeds-ageratum-houstonianum.jpg",
+      "price": 2.35,
+      "amount": 300,
+      "category": [
+        8
+      ]
+    },
+    {
+      "name": "Brown-eyed Susan",
+      "description": "Rudbeckia hirta, commonly called black-eyed Susan, is a species of flowering plant in the family Asteraceae, native to the Eastern and Central United States.",
+      "image": "flower/brown-eyed-susan-seeds-medicinal-herb.jpg",
+      "price": 1.55,
+      "amount": 300,
+      "category": [
+        8, 2
+      ]
+    },
+    {
+      "name": "China Aster",
+      "description": "Half Hardy Annual Flowers: Deep Blue blooms in late June to October Height: 25cm (10in) Soil type: Rich, well draining soil Exposure: Full sun preferred Germinates: 7 to 14 days at 16 to 18°C (60 to 64°F)",
+      "image": "flower/china-aster-seeds.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        8
+      ]
+    },
+    {
+      "name": "Chinese Aster",
+      "description": "Gremlin is a tall double variety of aster which makes excellent, long lasting cut flowers grown from flower seeds. Sow these flower seeds in well-drained soil in a sunny spot.",
+      "image": "flower/chinese-aster-red.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        8
+      ]
+    },
+    {
+      "name": "Dreaming Spires",
+      "description": "One of the most popular and imposing of long stemmed perrennials, the mainstay of any cottage garden or border. The long stately flower spikes are produced abundantly in shades of of lavender, blue, purple.",
+      "image": "flower/dreaming-spires-seeds.jpg",
+      "price": 2.25,
+      "amount": 300,
+      "category": [
+        8
+      ]
+    },
+    {
+      "name": "Foxglove Excelsior mix",
+      "description": "Variety with white, pink, rose and purple flowers, sometimes speckled. Flowering occurs from the bottom to the top of the flower stem.",
+      "image": "flower/foxglove-excelsior-mix-seeds.jpg",
+      "price": 1.70,
+      "amount": 300,
+      "category": [
+        8
+      ]
+    },
+    {
+      "name": "Foxglove",
+      "description": "This variety has purple spotted flowers and reaches a height of 5 feetSow in spring and summer on top of the compost. The seed needs light to germinate.",
+      "image": "flower/foxglove-seeds.jpg",
+      "price": 1.00,
+      "amount": 300,
+      "category": [
+        8
+      ]
+    },
+    {
+      "name": "Hollyhock Alcea rosea Majorette",
+      "description": "Play host to a colour parade this summer with these unique specimens, which revolutionise the way we use Hollyhocks in the garden",
+      "image": "flower/hollyhock-alcea-rosea-majorette-mix.jpg",
+      "price": 1.45,
+      "amount": 300,
+      "category": [
+        8
+      ]
+    },
+    {
+      "name": "Kings Lupin",
+      "description": "Lupine Russell [ Lupinus Polyphyllus Russell ] is a source of vibrant, majestic late-spring, and it is a trouble-free, reliable garden performer that will bring many years of delight from a single sowing!",
+      "image": "flower/kings-lupin-seeds-lupinus-polyphyllus.jpg",
+      "price": 1.50,
+      "amount": 300,
+      "category": [
+        8
+      ]
+    },
+    {
+      "name": "Birthworts, Pipevines, Dutchman's Pipes (Aristolochia)",
+      "description": "Aristolochia is a large plant genus with over 500 species that is the namesake (type genus) of the family (Aristolochiaceae)",
+      "image": "climbing_plants/birthworts-pipevines-dutchman-s-pipes-seeds.jpg",
+      "price": 2.45,
+      "amount": 300,
+      "category": [
+        3
+      ]
+    },
+    {
+      "name": "Bougainvillea spectabilis",
+      "description": "Planting bougainvillea seeds is sure way to add a vibrant splash of color to the home or garden. These tropical favorites are relatively easy to maintain.",
+      "image": "climbing_plants/bougainvillea-spectabilis-violet-seeds.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        3
+      ]
+    },
+    {
+      "name": "Finger Grape",
+      "description": "Finger table grapes have elongated purple drupes. They look like small maroon chili peppers, tightly clustered together on bright green stems. The grapes have a crisp, thin skin over pale flesh.",
+      "image": "climbing_plants/finger-grape-seeds.jpg",
+      "price": 2.25,
+      "amount": 300,
+      "category": [
+        3, 1
+      ]
+    },
+    {
+      "name": "Indian cress or Monks cress",
+      "description": "Tropaeolum majus (garden nasturtium, Indian cress or monks cress) is a flowering plant in the family Tropaeolaceae, originating in the Andes from Bolivia north to Colombia.",
+      "image": "climbing_plants/indian-cress-or-monks-cress-seed-edible.jpg",
+      "price": 3.25,
+      "amount": 300,
+      "category": [
+        3, 8
+      ]
+    },
+    {
+      "name": "Italian woodbine",
+      "description": "Lonicera caprifolium, the Italian woodbine, perfoliate honeysuckle, goat-leaf honeysuckle, Italian honeysuckle, or perfoliate woodbine, is a species of perennial flowering plants in the genus Lonicera.",
+      "image": "climbing_plants/italian-woodbine-seeds-lonicera-caprifolium.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        3, 8
+      ]
+    },
+    {
+      "name": "Scarlet Firethorn",
+      "description": "Scarlet Firethorn is a large, fast-growing, semi-evergreen to an evergreen shrub that is cherished for its spectacular fall and winter display of scarlet fruits and ability to withstand difficult conditions.",
+      "image": "climbing_plants/scarlet-firethorn-seeds.jpg",
+      "price": 1.50,
+      "amount": 300,
+      "category": [
+        3
+      ]
+    },
+    {
+      "name": "SNAKE GOURD",
+      "description": "Snake gourds are long and curved vegetables that fall into two different categories. There are the extremely long varieties that are grown for ornamental purposes and have hard skin.",
+      "image": "climbing_plants/snake-gourd-seeds-trichosanthes-cucumerina.jpg",
+      "price": 2.35,
+      "amount": 300,
+      "category": [
+        3, 0
+      ]
+    },
+    {
+      "name": "Winter squash",
+      "description": "Trombetta di Albenga is an Italian heirloom climbing winter squash. It’s a highly valuable variety, with a delicate flavor. The plant is a strong climber, with broad leaves, its fruits are thin, slightly crooked.",
+      "image": "climbing_plants/winter-squash-seeds-trombetta-di-albenga.jpg",
+      "price": 2.35,
+      "amount": 300,
+      "category": [
+        3, 0
+      ]
+    },
+    {
+      "name": "Wisteria",
+      "description": "Wisteria (also spelled Wistaria or Wysteria) is a genus of flowering plants in the pea family, Fabaceae, that includes ten species of woody climbing vines native to the Eastern United States and to China.",
+      "image": "climbing_plants/wisteria-seeds-wisteria-sinensis.jpg",
+      "price": 2.50,
+      "amount": 300,
+      "category": [
+        3, 8
+      ]
+    },
+    {
+      "name": "Blue Columnar",
+      "description": "Pilosocereus pachycladus is one of the most spectacular, columnar, tree-like cacti. It is up to 33 feet (10) tall and ramify at the base or develops a distinct trunk with dozens of erected.",
+      "image": "cactus/blue-columnar-cactus-seeds-pilosocereus-pachycladus.jpg",
+      "price": 1.85,
+      "amount": 300,
+      "category": [
+        7
+      ]
+    },
+    {
+      "name": "Indian fig",
+      "description": "Opuntia ficus-indica is a domesticated cactus that has been used for food for at least 9000 years. The plant’s edible uses have been tied to the Christopher Columbus and the Mayan Indians.",
+      "image": "cactus/indian-fig-cactus-seeds.jpg",
+      "price": 2.25,
+      "amount": 300,
+      "category": [
+        7, 1
+      ]
+    },
+    {
+      "name": "Krantz Aloe",
+      "description": "Aloe arborescens (krantz aloe, candelabra aloe) is a species of flowering succulent perennial plant that belongs to the Aloe genus.",
+      "image": "cactus/krantz-aloe-candelabra-aloe-seeds-aloe-arborescens.jpg",
+      "price": 4.00,
+      "amount": 300,
+      "category": [
+        7
+      ]
+    },
+    {
+      "name": "Lion-s Tail",
+      "description": "Agave attenuata is a species of agave sometimes known as the \"lion's tail\", \"swan's neck\", or \"foxtail\" for its development of a curved stem, unusual among agaves.",
+      "image": "cactus/lion-s-tail-swan-s-neck-foxtail-seeds.jpg",
+      "price": 2.95,
+      "amount": 300,
+      "category": [
+        7
+      ]
+    },
+    {
+      "name": "Paddle Plant, Flapjacks",
+      "description": "Kalanchoe tetraphylla (also known as paddle plant, flapjacks, desert cabbage, white lady, geelplakkie, meelplakkie, or plakkie[citation needed]) is a species of Kalanchoe native to South Africa.",
+      "image": "cactus/paddle-plant-flapjacks-desert-cabbage-seeds.jpg",
+      "price": 3.25,
+      "amount": 300,
+      "category": [
+        7
+      ]
+    },
+    {
+      "name": "Saguaro",
+      "description": "The saguaro (/səˈwɑroʊ/; scientific name Carnegiea gigantea) is a large, tree-sized cactus species in the monotypic genus Carnegiea, which can grow to be over 20 meters (~70 ft) tall.",
+      "image": "cactus/saguaro-cactus-seeds.jpg",
+      "price": 1.80,
+      "amount": 300,
+      "category": [
+        7
+      ]
+    },
+    {
+      "name": "Tree Grape, Wild Grape, Namibian Grape",
+      "description": "Cyphostemma juttae - the Tree Grape - is a rare, crazy-looking succulent from South Africa and neighboring Namibia.  It forms a bizarre canopy of serrated, blue-green leaves that emerge each spring.",
+      "image": "cactus/tree-grape-seeds-wild-grape-namibian-grape.jpg",
+      "price": 7.50,
+      "amount": 300,
+      "category": [
+        7
+      ]
+    },
+    {
+      "name": "Wheel Cactus or Camuesa",
+      "description": "Opuntia robusta, the wheel cactus, nopal tapon, or camuesa, is a species of cactus in the family Cactaceae.[1] It is native and endemic to central and northern Mexico to within 100 miles (160 km) of the Arizona.",
+      "image": "cactus/wheel-cactus-or-camuesa-seeds.jpg",
+      "price": 1.65,
+      "amount": 300,
+      "category": [
+        7, 1
+      ]
+    },
+    {
+      "name": "Banana Musa Ornata",
+      "description": "Beautiful and very easy to grow Musa Ornata Purple. Originally from India this 9 foot plant is hardy to zones 9-11. It can benefit from slow release fertilizer and kept in full sun.",
+      "image": "banana/banana-musa-ornata-seeds.jpg",
+      "price": 2.75,
+      "amount": 300,
+      "category": [
+        9, 1
+      ]
+    },
+    {
+      "name": "BLOOD BANANA",
+      "description": "The blood banana (Musa acuminata ssp. zebrina), is a subspecies of the wild banana Musa acuminata native to Sumatra, Indonesia.",
+      "image": "banana/blood-banana-seeds.jpg",
+      "price": 2.25,
+      "amount": 300,
+      "category": [
+        9, 1
+      ]
+    },
+    {
+      "name": "Burmese Blue Banana",
+      "description": "This rare and moderately sized banana is found in Burma, northern Thailand, Laos and Vietnam. It was formerly associated with both the musa acuminata and the balbisian musa, but it is now believed.",
+      "image": "banana/burmese-blue-banana-seeds-musa-itinerans.jpg",
+      "price": 3.05,
+      "amount": 300,
+      "category": [
+        9, 1
+      ]
+    },
+    {
+      "name": "Musa nagensium Banana",
+      "description": "Musa nagensium is a beautiful, slender banana with a striking dark purple-red to almost black pseudo-stem which is very waxy. The abaxial surface of the leaf has a dark red midrib and the lamina is so waxy that is nearly white. The pseudo-stem may exceed 6 m high. ",
+      "image": "banana/musa-nagensium-banana-seeds.jpg",
+      "price": 5.00,
+      "amount": 300,
+      "category": [
+        9, 1
+      ]
+    },
+    {
+      "name": "Pink Banana, Velvet Banana",
+      "description": "These lovely dwarf banana plants are typically used in the landscape for their ornamental appeal. The rootstock will survive outdoors to -5°C (23°F) with some winter.",
+      "image": "banana/pink-banana-velvet-banana-seeds.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        9, 1
+      ]
+    },
+    {
+      "name": "Wild Banana",
+      "description": "Musa balbisiana is a wild-type species of banana native to eastern South Asia, northern Southeast Asia, and southern China.",
+      "image": "banana/wild-banana-seeds-musa-balbisiana.jpg",
+      "price": 1,
+      "amount": 300,
+      "category": [
+        9, 1
+      ]
+    },
+    {
+      "name": "Buddha bamboo",
+      "description": "This beautiful form of Buddha Belly bamboo has culms that emerge green and soon turn a beautiful golden-yellow with green stripes. Like the green form, it will grow straight and slender, given ideal.",
+      "image": "bamboo/buddha-bamboo-buddha-s-belly-bamboo-seeds.jpg",
+      "price": 2.45,
+      "amount": 300,
+      "category": [
+        10
+      ]
+    },
+    {
+      "name": "Clumping, Yellow Bamboo",
+      "description": "Fargesia fungosa bamboo are very cold tolerant, shade loving bamboos from the mountainous region of western China. They can grow nearly anywhere in the world.",
+      "image": "bamboo/clumping-yellow-bamboo-seeds-hardy-fargesia-fungosa.jpg",
+      "price": 2.95,
+      "amount": 300,
+      "category": [
+        10
+      ]
+    },
+    {
+      "name": "Giant Bamboo",
+      "description": "Phyllostachys pubescens, common name Moso bamboo is a monopodial bamboo, An absolute giant in all respects, with blue-green culms (canes) and dense arching foliage and have a fuzzy texture.",
+      "image": "bamboo/giant-bamboo-seeds.jpg",
+      "price": 2.15,
+      "amount": 300,
+      "category": [
+        10
+      ]
+    },
+    {
+      "name": "Giant Thorny Bamboo",
+      "description": "Bambusa bambos also known as Giant Thorny Bamboo or Indian Thorny Bamboo, is a species of tropical dense clumping bamboo native to Southeast Asia.",
+      "image": "bamboo/giant-thorny-bamboo-seeds.jpg",
+      "price": 1.60,
+      "amount": 300,
+      "category": [
+        10
+      ]
+    },
+    {
+      "name": "Golden Bamboo",
+      "description": "One of the most common bamboos in the United States, and for a good reason: although usually not very tall, it is one of the strongest and most useful.",
+      "image": "bamboo/golden-bamboo-seeds-fish-pole-bamboo-phyllostachys-aurea.jpg",
+      "price": 1.95,
+      "amount": 300,
+      "category": [
+        10
+      ]
+    },
+    {
+      "name": "Calcutta bamboo",
+      "description": "Dendrocalamus strictus, also know as iron or male bamboo, calcutta bamboo or solid bamboo is a giant bamboo, which reaches a maximum height of 60 feet.",
+      "image": "bamboo/male-bamboo-seeds-calcutta-bamboo-solid-bamboo.jpg",
+      "price": 5.50,
+      "amount": 300,
+      "category": [
+        10
+      ]
+    },
+    {
+      "name": "White Bamboo",
+      "description": "Dendrocalamus membranaceus also known as White Bamboo and formerly classified as “Bambusa membranacea” is a medium-sized tropical clumping bamboo originating from Southeast Asia.",
+      "image": "bamboo/white-bamboo-seeds-dendrocalamus-membranaceus.jpg",
+      "price": 2.95,
+      "amount": 300,
+      "category": [
+        10
+      ]
+    }
+  ],
+  "users": [
+    {
+      "firstName": "Leonardo",
+      "lastName": "Smith",
+      "email": "android@gmail.com",
+      "password": "1234"
+    }
+  ]
+}
