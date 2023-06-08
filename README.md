@@ -1,5 +1,6 @@
 # Seeds-Store
 It was made for educational purposes. All data is stored locally in the assets folder and in the database. If necessary, all this can be easily connected to the network and receive data remotely.
+The design was borrowed from [here](https://www.figma.com/file/tWrllJunocgWDR6B44p5OM/Delivery-App_UI-Kit?type=design&node-id=33-444&t=yML41RFx8FePzbyt-0)(It is in the public domain).
 
 Screenshots
 ---------------
