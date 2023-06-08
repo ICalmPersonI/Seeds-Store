@@ -17,29 +17,22 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import androidx.navigation.NavController
-import androidx.navigation.compose.rememberNavController
 import com.calmperson.seedsstore.R
 import com.calmperson.seedsstore.ui.components.AppTextButton
 import com.calmperson.seedsstore.ui.components.AppTextField
 import com.calmperson.seedsstore.ui.components.ErrorText
-import com.calmperson.seedsstore.ui.screen.Screen
-import com.calmperson.seedsstore.ui.state.SignInCallback
 import com.calmperson.seedsstore.ui.state.SignUpCallback
 import com.calmperson.seedsstore.ui.theme.SeedsStoreTheme
 import com.calmperson.seedsstore.ui.theme.SourceSansProBold
-import com.calmperson.seedsstore.ui.theme.SourceSansProRegular
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -133,7 +126,7 @@ fun SignUpScreen(
                 label = stringResource(R.string.password),
                 value = password,
                 onValueChange = { password = it },
-                isError = differentPasswords || password.length < 3,
+                isError = differentPasswords || password.length < 4,
                 supportingText = {
                     ErrorText(
                         modifier = Modifier.padding(bottom = 2.dp),
@@ -153,7 +146,7 @@ fun SignUpScreen(
                     confirmPassword = it
                     differentPasswords = password != confirmPassword
                 },
-                isError = differentPasswords || confirmPassword.length < 3,
+                isError = differentPasswords || confirmPassword.length < 4,
                 supportingText = {
                     ErrorText(
                         modifier = Modifier.padding(bottom = 2.dp),
@@ -174,8 +167,8 @@ fun SignUpScreen(
                         && (!invalidEmail && email.isNotBlank())
                         && (firstName.isNotBlank() && firstName.length > 1)
                         && (lastName.isNotBlank() && lastName.length > 1)
-                        && (password.length > 3 && confirmPassword.length > 3)) {
-                        CoroutineScope(Dispatchers.IO).launch {
+                        && (password.length >= 4 && confirmPassword.length >= 4)) {
+                        CoroutineScope(Dispatchers.Main).launch {
                             signUp(firstName, lastName, email, password).collect { callback ->
                                 callback?.let {
                                     if (callback.success) {

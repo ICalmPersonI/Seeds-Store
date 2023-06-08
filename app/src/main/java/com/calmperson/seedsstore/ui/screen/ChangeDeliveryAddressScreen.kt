@@ -24,6 +24,7 @@ import com.calmperson.seedsstore.ui.theme.SeedsStoreTheme
 fun ChangeDeliveryAddressScreen(
     modifier: Modifier = Modifier,
     changeDeliveryAddress: (String, String, String, String, String) -> Unit,
+    navigateToBack: () -> Unit
 ) {
 
     var fullName by remember { mutableStateOf("") }
@@ -108,6 +109,7 @@ fun ChangeDeliveryAddressScreen(
                     && city.isNotBlank() && postalCode.isNotBlank()
                     && country.isNotBlank()) {
                     changeDeliveryAddress(fullName, address, city, postalCode, country)
+                    navigateToBack.invoke()
                 }
             }
         )
@@ -125,7 +127,8 @@ fun ChangeDeliveryAddressScreen(
 private fun ChangeDeliveryAddressScreenPreview() {
     SeedsStoreTheme {
         ChangeDeliveryAddressScreen(
-            changeDeliveryAddress = {_, _, _, _, _ ->}
+            changeDeliveryAddress = {_, _, _, _, _ -> },
+            navigateToBack = { }
         )
     }
 }

@@ -5,12 +5,9 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -22,7 +19,6 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -33,9 +29,7 @@ import androidx.compose.ui.window.Dialog
 import com.calmperson.seedsstore.R
 import com.calmperson.seedsstore.ui.components.AppTextButton
 import com.calmperson.seedsstore.ui.components.AppTextField
-import com.calmperson.seedsstore.ui.components.CreditCard
 import com.calmperson.seedsstore.ui.components.ErrorText
-import com.calmperson.seedsstore.ui.components.MasterCardIcon
 import com.calmperson.seedsstore.ui.components.Subtitle
 import com.calmperson.seedsstore.ui.components.TextWithIcon
 import com.calmperson.seedsstore.ui.state.AccountScreenState
@@ -300,7 +294,7 @@ private fun Password(
     if (showChangePasswordDialog.value) {
         var newPassword by remember { mutableStateOf("") }
         ChangeFieldDialog(
-            label = stringResource(R.string.email),
+            label = stringResource(R.string.password),
             value = newPassword,
             onValueChange = { newPassword = it },
             show = showChangePasswordDialog,

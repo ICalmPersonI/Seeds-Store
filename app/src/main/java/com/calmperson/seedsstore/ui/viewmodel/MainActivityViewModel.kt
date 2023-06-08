@@ -1,6 +1,5 @@
 package com.calmperson.seedsstore.ui.viewmodel
 
-import android.content.SharedPreferences
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.calmperson.seedsstore.R
@@ -25,7 +24,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.firstOrNull
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -133,24 +131,37 @@ class MainActivityViewModel @Inject constructor(
             cart = mutableListOf()
         )
         CoroutineScope(Dispatchers.IO).launch {
-            val id = userRepository.insert(newUser)
-            userRepository.findById(id)?.let { _user ->
-                _accountScreenState.emit(
-                    AccountScreenState(
-                        firstName = _user.firstName,
-                        lastName = _user.lastName,
-                        email = _user.email,
-                        creditCard = _user.creditCard,
-                        address = _user.address,
-                        orderHistory = seeds.filter(_user.orderHistory),
-                        wishList = seeds.filter(_user.wishList)
-                    )
-                )
-                callback.emit(SignUpCallback(true, -1))
-                user = _user
-            } ?: run {
-                callback.emit(SignUpCallback(false, R.string.something_went_wrong))
-            }
+           if (userRepository.findByEmail(email) != null) {
+               callback.value = SignUpCallback(false, R.string.user_already_exists)
+           } else {
+               val id = userRepository.insert(newUser)
+               userRepository.findById(id)?.let { _user ->
+                   _accountScreenState.value =
+                       AccountScreenState(
+                           firstName = _user.firstName,
+                           lastName = _user.lastName,
+                           email = _user.email,
+                           creditCard = _user.creditCard,
+                           address = _user.address,
+                           orderHistory = seeds.filter(_user.orderHistory),
+                           wishList = seeds.filter(_user.wishList)
+                       )
+
+                   _cartScreenState.value =
+                       CartScreenState(seeds.filter(_user.cart).map { seed -> seed.asState() })
+                   _orderHistoryScreenState.value = OrderHistoryScreenState(
+                       seeds.filter(_user.orderHistory).map { seed -> seed.asState() })
+                   _wishlistScreenState.value = WishlistScreenState(
+                       seeds.filter(_user.wishList).map { seed -> seed.asState() })
+                   _checkoutScreenState.value =
+                       CheckoutScreenState(_user.creditCard?.number, _user.address)
+
+                   callback.value = SignUpCallback(true, -1)
+                   user = _user
+               } ?: run {
+                   callback.value = SignUpCallback(false, R.string.something_went_wrong)
+               }
+           }
         }
         return callback
     }

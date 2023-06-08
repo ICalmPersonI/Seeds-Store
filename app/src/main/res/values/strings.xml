@@ -78,4 +78,5 @@
     <string name="remember_me_email_key">rmek</string>
     <string name="remember_me_password_key">rmpk</string>
     <string name="shared_preferences_file_name">REMEMBER_ME</string>
+    <string name="user_already_exists">The user already exists</string>
 </resources>

@@ -9,7 +9,6 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
@@ -17,9 +16,6 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.calmperson.seedsstore.data.CreditCard
-import com.calmperson.seedsstore.data.Seed
-import com.calmperson.seedsstore.data.User
 import com.calmperson.seedsstore.ui.components.BottomAppBar
 import com.calmperson.seedsstore.ui.components.TopAppBar
 import com.calmperson.seedsstore.ui.screen.CartScreen
@@ -44,7 +40,6 @@ import com.calmperson.seedsstore.ui.state.SeedScreenState
 import com.calmperson.seedsstore.ui.state.SignInCallback
 import com.calmperson.seedsstore.ui.state.SignUpCallback
 import com.calmperson.seedsstore.ui.state.WishlistScreenState
-import kotlinx.coroutines.flow.SharedFlow
 import kotlinx.coroutines.flow.StateFlow
 
 
@@ -208,7 +203,7 @@ fun Root(
                     signUp = signUp,
                     navigateToAccountScreen = {
                         navController.navigate(Screen.Account.route) {
-                            popUpTo(Screen.SignIn.route) {
+                            popUpTo(Screen.SignUp.route) {
                                 inclusive = true
                             }
                         }
@@ -234,7 +229,10 @@ fun Root(
             }
 
             composable(Screen.ChangeDeliveryAddress.route) {
-                ChangeDeliveryAddressScreen(changeDeliveryAddress = changeDeliveryAddress)
+                ChangeDeliveryAddressScreen(
+                    changeDeliveryAddress = changeDeliveryAddress,
+                    navigateToBack = { navController.popBackStack() }
+                )
             }
 
             composable(Screen.ChangePaymentMethod.route) {
